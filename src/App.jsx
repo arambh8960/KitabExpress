@@ -9,7 +9,6 @@ import About from './components/About';
 
 const App = () => {
   return (
-    <BrowserRouter basename="/KitabExpress">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/course" element={<Courses />} />
@@ -17,7 +16,6 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
       </Routes>
-    </BrowserRouter>
   )
 }
 
