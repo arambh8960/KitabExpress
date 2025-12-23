@@ -13,6 +13,7 @@ function Freebook() {
     dots: true,
     infinite: false,
     speed: 500,
+    mobileFirst: true,
     slidesToShow: 3,
     slidesToScroll: 3,
     initialSlide: 0,
